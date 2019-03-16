@@ -1,0 +1,12 @@
+noremap  yy "*y
+noremap  YY "*Y
+noremap  pp "*p
+noremap  PP "*P
+vnoremap yy "*y
+vnoremap YY "*Y
+vnoremap pp "*p
+vnoremap PP "*P
+set hls
+set ic
+set nu rnu
+imap jj <Esc>
