@@ -1,8 +1,9 @@
+imap jj <Esc>
 noremap  yy "*y
 noremap  YY "*Y
 noremap  pp "*p
 noremap  PP "*P
-noremap ,, :noh<ENTER>
+noremap  '' :noh<ENTER>
 vnoremap yy "*y
 vnoremap YY "*Y
 vnoremap pp "*p
@@ -11,5 +12,5 @@ set hls
 set incsearch
 set ic
 set nu rnu
-imap jj <Esc>
 set so=5
+set nrformats+=alpha
