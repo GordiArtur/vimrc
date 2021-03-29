@@ -1,13 +1,21 @@
 imap jj <Esc>
+
 noremap  yy "*y
 noremap  YY "*Y
 noremap  pp "*p
 noremap  PP "*P
 noremap  '' :noh<ENTER>
+noremap  <SPACE> zz
+noremap  ga `a
+noremap  gb `b
+noremap  gc `c 
+noremap  gd `d
+
 vnoremap yy "*y
 vnoremap YY "*Y
 vnoremap pp "*p
 vnoremap PP "*P
+
 set hls
 set incsearch
 set ic
